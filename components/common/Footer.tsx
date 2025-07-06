@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Company Info */}
         <div>
-          <img src="/logo.png" alt="Dvm Logo" className="h-10 mb-4" />
+          {/* <img src="/logo.png" alt="Dvm Logo" className="h-10 mb-4" /> */}
           <p className="text-sm leading-relaxed">
             Accelerating growth with scalable DevOps, full-stack apps, and
             secure blockchain solutions.

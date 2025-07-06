@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 
 export default function ContactModal({
@@ -25,9 +26,10 @@ export default function ContactModal({
 
         {/* Body */}
         <div className="px-6 py-6 space-y-4">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="text-sm text-gray-700">
-            Ready to start your project? Fill out the form and we’ll get back to
-            you within 24 hours.
+            Ready to start your project? Fill out the form and we&#39;ll get
+            back to you within 24 hours.
           </p>
 
           <input
