@@ -33,7 +33,7 @@ const caseStudies = [
 
 const CaseStudiesPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-100 via-white to-green-700">
       <div className="max-w-7xl mx-auto">
         {/* Page Heading */}
         <div className="mb-12 text-center">

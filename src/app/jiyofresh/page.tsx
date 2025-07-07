@@ -4,7 +4,7 @@ import CustomCarousel from "../../../components/common/CustomCarousel";
 const JiyoFreshSection: React.FC = () => {
   return (
     <>
-      <section className="bg-white py-16 px-4 text-center">
+      <section className="bg-white py-16 px-4 text-center bg-gradient-to-br from-blue-100 via-white to-green-700">
         <div className="flex justify-center mb-6">
           <div className="w-0 h-0 border-l-[15px] border-r-[15px] border-b-[20px] border-l-transparent border-r-transparent border-b-green-500" />
         </div>

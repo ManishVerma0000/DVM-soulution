@@ -50,7 +50,7 @@ const CustomCarousel: React.FC = () => {
   const visibleItems = items.slice(start, start + itemsPerSlide);
 
   return (
-    <div className="relative max-w-6xl mx-auto px-4">
+    <div className="relative max-w-6xl mx-auto px-4 ">
       {/* Cards */}
       <div className="flex gap-4 justify-center transition-all duration-500">
         {visibleItems.map((item, idx) => (

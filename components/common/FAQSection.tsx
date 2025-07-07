@@ -43,7 +43,7 @@ const FAQSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-white mb-12">
+    <section className="bg-white mb-12 bg-gradient-to-br from-blue-100 via-white to-green-700">
       <div className="text-center mb-12">
         <div className="w-12 h-12 mx-auto rounded-full bg-green-100 flex items-center justify-center mb-4">
           <span className="text-green-400 text-xl">❓</span>

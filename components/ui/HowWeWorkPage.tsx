@@ -30,7 +30,7 @@ const workSteps = [
 
 const HowWeWorkPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-gray-50 py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-blue-100 via-white to-green-700">
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">How We Work</h1>
         <p className="text-lg text-gray-600">

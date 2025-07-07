@@ -34,7 +34,7 @@ const services = [
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-white bg-gradient-to-br from-blue-100 via-white to-green-700" >
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold">
           Our <span className="text-green-400">Services</span>

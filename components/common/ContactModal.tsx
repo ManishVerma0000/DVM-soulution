@@ -14,7 +14,7 @@ export default function ContactModal({
     <div className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-sm bg-black/20">
       <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full animate-fade-in">
         {/* Header */}
-        <div className=" text-black px-6 py-4 rounded-t-2xl flex justify-between items-center">
+        <div className=" text-black px-6 py-4 rounded-t-2xl flex justify-between items-center bg-green-500">
           <h2 className="text-lg font-semibold">Let's Connect</h2>
           <button
             onClick={onClose}
