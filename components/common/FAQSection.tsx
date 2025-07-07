@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     icon: <FaClock className="text-green-400" />,
-    question: "How quickly can we implement Zedblock?",
+    question: "How quickly can we implement DVM Solutions?",
     answer:
       "Depending on your scope, initial setup can be completed in days, with full deployment typically within 2–4 weeks.",
   },
