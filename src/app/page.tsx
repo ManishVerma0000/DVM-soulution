@@ -3,6 +3,7 @@ import FAQSection from "../../components/common/FAQSection";
 import FeatureSection from "../../components/common/FeatureSection";
 import HeroSection from "../../components/common/HeroSection";
 import ServicesSection from "../../components/common/Service";
+import MovingIntegrations from "../../components/common/MovingIntegrations";
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
 
       <HeroSection />
       <FeatureSection />
+      <MovingIntegrations/>
       <ServicesSection />
       <FAQSection />
     </>
