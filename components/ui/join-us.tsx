@@ -27,12 +27,12 @@ export default function JoinUs() {
 
       <div className="min-h-screen bg-gradient-to-br from-blue-100 via-white to-green-700 flex items-center justify-center p-4">
         <div className="bg-white/90 backdrop-blur-lg shadow-2xl rounded-3xl p-10 max-w-2xl w-full border border-gray-200">
-          <h1 className="text-4xl font-bold text-center text-green-700 mb-4">
+          <h1 className="text-4xl font-bold text-center text-blue-700 mb-4">
             Join Our Team
           </h1>
           <p className="text-center text-gray-600 mb-8">
-            We're looking for talented individuals. Drop your resume below and
-            let's build something great together.
+            We&apos;re looking for talented individuals. Drop your resume below
+            and let&apos;s build something great together.
           </p>
 
           <form onSubmit={handleSubmit} className="space-y-6">
