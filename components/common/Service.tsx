@@ -24,7 +24,7 @@ const services = [
       "Streamline your operations with scalable cloud infrastructure, CI/CD pipelines, and performance monitoring.",
   },
   {
-    icon: <FaCode className="text-yellow-600 text-2xl" />,
+    icon: <FaCode className="text-green-600 text-2xl" />,
     title: "Full-Stack Web Development",
     subtitle: "Modern, scalable web apps",
     description:
@@ -37,7 +37,7 @@ const ServicesSection: React.FC = () => {
     <section className="py-16 bg-white">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold">
-          Our <span className="text-yellow-400">Services</span>
+          Our <span className="text-green-400">Services</span>
         </h2>
         <p className="text-gray-500 mt-2 text-lg">
           A look at how we make your workflow simple.

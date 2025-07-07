@@ -39,13 +39,13 @@ const Header = () => {
             {showSolutions && (
               <div className="absolute bg-white shadow-md p-4 top-8 left-0 rounded">
                 {/* Add dropdown links here */}
-                <Link href="/solutions/ai">AI Solutions</Link>
+                <Link href="/jiyofresh">JiyoFresh</Link>
               </div>
             )}
           </div>
           <Link href="/services">Services</Link>
-          <Link href="/how-we-work">How we work</Link>
-          <Link href="/case-study">Case Study</Link>
+          <Link href="/work">How we work</Link>
+          <Link href="/casestudy">Case Study</Link>
           <Link href="/blog">Blog</Link>
         </nav>
 

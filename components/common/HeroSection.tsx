@@ -5,15 +5,15 @@ const HeroSection: React.FC = () => {
     <section className="bg-white py-16 px-4 text-center">
       {/* Triangle Icon */}
       <div className="flex justify-center mb-6">
-        <div className="w-0 h-0 border-l-[15px] border-r-[15px] border-b-[20px] border-l-transparent border-r-transparent border-b-yellow-400" />
+        <div className="w-0 h-0 border-l-[15px] border-r-[15px] border-b-[20px] border-l-transparent border-r-transparent border-b-green-400" />
       </div>
 
       {/* Heading */}
       <h1 className="text-4xl md:text-5xl font-bold leading-tight">
         <span className="text-black">Fully Managed </span>
-        <span className="text-yellow-400">Web, App & Blockchain</span>
+        <span className="text-green-400">Web, App & Blockchain</span>
         <br />
-        <span className="text-yellow-400">Tailored </span>
+        <span className="text-green-400">Tailored </span>
         <span className="text-black">for Your Business</span>
       </h1>
 

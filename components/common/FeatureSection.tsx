@@ -4,27 +4,27 @@ import { FaMobileAlt, FaServer, FaCloud, FaLock } from "react-icons/fa";
 
 const features = [
   {
-    icon: <FaServer className="text-yellow-400 text-2xl" />,
+    icon: <FaServer className="text-green-400 text-2xl" />,
     title: "Full-Stack Development",
     description: "Frontend & backend apps built for scale and performance.",
   },
   {
-    icon: <FaMobileAlt className="text-yellow-400 text-2xl" />,
+    icon: <FaMobileAlt className="text-green-400 text-2xl" />,
     title: "iOS & Android Apps",
     description: "Cross-platform mobile apps with native performance.",
   },
   {
-    icon: <FaCloud className="text-yellow-400 text-2xl" />,
+    icon: <FaCloud className="text-green-400 text-2xl" />,
     title: "DevOps & CI/CD",
     description: "Automated pipelines & cloud-native deployments.",
   },
   {
-    icon: <FaLock className="text-yellow-400 text-2xl" />,
+    icon: <FaLock className="text-green-400 text-2xl" />,
     title: "Blockchain Integration",
     description: "Decentralized, secure, and transparent solutions.",
   },
   {
-    icon: <FaServer className="text-yellow-400 text-2xl" />,
+    icon: <FaServer className="text-green-400 text-2xl" />,
     title: "Scalable Hosting",
     description: "Cloud or on-prem hosting to grow with your business.",
   },
@@ -75,7 +75,7 @@ const FeatureSection: React.FC = () => {
 
       {/* CTA */}
       <div className="mt-8">
-        <button className="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-2 px-6 rounded shadow">
+        <button className="bg-green-400 hover:bg-green-500 text-white font-semibold py-2 px-6 rounded shadow">
           Request Demo
         </button>
       </div>

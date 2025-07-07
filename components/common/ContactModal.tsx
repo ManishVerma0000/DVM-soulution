@@ -35,29 +35,29 @@ export default function ContactModal({
           <input
             type="text"
             placeholder="Full Name"
-            className="w-full border border-gray-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-400 transition"
+            className="w-full border border-gray-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-400 transition"
             required
           />
           <input
             type="tel"
             placeholder="Phone Number"
-            className="w-full border border-gray-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-400 transition"
+            className="w-full border border-gray-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-400 transition"
             required
           />
           <input
             type="email"
             placeholder="Email Address"
-            className="w-full border border-gray-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-400 transition"
+            className="w-full border border-gray-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-400 transition"
             required
           />
           <textarea
             placeholder="Tell us about your requirements..."
-            className="w-full border border-gray-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-400 transition"
+            className="w-full border border-gray-300 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-400 transition"
             rows={4}
             required
           ></textarea>
 
-          <button className="w-full bg-yellow-400 text-black font-medium py-2.5 rounded-xl hover:bg-yellow-500 transition-all">
+          <button className="w-full bg-green-400 text-black font-medium py-2.5 rounded-xl hover:bg-green-500 transition-all">
             Send Message
           </button>
         </div>
